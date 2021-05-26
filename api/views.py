@@ -12,7 +12,7 @@ import random
 import spotipy
 from .numcheck import num_there
 
-client_credentials_manager = SpotifyClientCredentials(client_id='1efe3e709c814dc5b61364f549101eb1',client_secret='46b09c13b7c04dc6a2810527dc117f8e')
+client_credentials_manager = SpotifyClientCredentials(client_id='YOUR_CLIENT_ID',client_secret='YOUR_CLIENT_SECRET')
 spotify = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 n = random.randint(1,15)
