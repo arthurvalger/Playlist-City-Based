@@ -7,16 +7,16 @@
     <title>API</title>
 </head>
 <body>
-    <h1>Spotify City-Based</h1>
+    <h1>Playlist City-Based</h1>
     <!-- {{form}} -->
     <form method="post" action="/create/">
         {{form}}
         {% csrf_token %}
         <button type="submit", name="save">Save</button>
     </form>
-    <h3>Cidade: {{test.cidade}}</h3>
-    <h3>Temperatura: {{test.temp}}</h3>
+    <h3>City: {{test.cidade}}</h3>
+    <h3>Temperature: {{test.temp}}</h3>
     <h3>Playlist: {{test.playlist}}</h3>
-    <h3>Musica: {{test.musica}}</h3>
+    <h3>Track: {{test.musica}}</h3>
 </body>
 </html>
