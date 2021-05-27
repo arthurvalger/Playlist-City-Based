@@ -56,7 +56,7 @@ ROOT_URLCONF = 'api.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/arthu/OneDrive/Documentos/ifood/api/api/templates'],
+        'DIRS': ['api/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
