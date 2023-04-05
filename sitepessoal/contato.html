@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <!-- <div class="logo">folio.</div> -->
+            <ul class="navItems">
+                <li><a href=index.html>Home</a></li>
+                <li><a href=sobre.html>Sobre</a></li>
+                <li><a href="portfoio.html">Portfolios</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="contatotext">
+            <div class="contato2">
+                <h1>Entre em contato comigo 📧</h1>
+            </div>
+            <div class="form">
+                <form action="mailto:arthurvalgerapplegmail.com" method="GET">
+                    <input type="text" name="Name" placeholder="Nome" autocomplete="off">
+                    <input type="email" name="Email" placeholder="Email" autocomplete="off">
+                    <textarea name="Message" id="Message" cols="10" rows="10"></textarea>
+                    <input type="submit" class="btn" id="btn"></input>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <h4>Site feito por Luiz Arthur</h4>
+        </footer>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+    // var btn = document.getElementById('btn');
+    // btn.addEventListener('click', function(e) {
+    //     e.preventDefault()
+    //     var name = document.getElementById('name').value;
+    //     var email = document.getElementById('email').value;
+    //     var subject = document.getElementById('subject').value;
+    //     var message = document.getElementById('message').value
+    //     var body = 'name:' +name + '<br/> emai: ' + email + '<br/> subject ' +
+    //     subject + '<br/> message' + message;
+        
+        
+    //     Email.send({
+    //         Host : "smtp.gmail.com",
+    //         Username : "username", //COOLCAR
+    //         Password : "password", //COLOCAR
+    //         To : 'them@website.com',
+    //         From : email,
+    //         Subject : subject,
+    //         Body : body
+    //     }).then(
+    //         message => alert(message)
+    //     );
+    // })
+</script>
+
+</html>

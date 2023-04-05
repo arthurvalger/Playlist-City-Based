@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    /* overflow:  hidden; */
+    background-color: rgb(243, 243, 243);
+}
+.container {
+    width: 100%;
+    /* min-height: 100vh; */
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    /* text-align: center; */
+    align-items: center;
+    height: 70px;
+    line-height: 80px;
+    z-index: 111;
+    background-color: rgb(69, 17, 82);
+    box-shadow: 0 15px 10px rgb(0, 0, 0, 0.3);
+}
+.logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: grey;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.navItems {
+    display: flex;
+}
+.navItems li {
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 25px;
+    color: rgb(229, 229, 233);
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a{
+    color: rgb(128, 128, 128);
+}
+
+.wrapper {
+    /* display: flex; */
+    /* width: 100%; */
+    /* margin-left: 20rem; */
+    margin-top: 3rem;
+    text-align: center;
+    /* height: 100%; */
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 5% 0; */
+    /* overflow: hidden; */
+    
+}
+.cols{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+h1 {
+    display: block;
+    font-size: 3.5em;
+    font-weight: 900;
+    color: rgb(118, 35, 196);
+}
+.multiText {
+    /* display: block; */
+    width: 90%;
+    font-size: 1.2em;
+    /* color: rgb(177, 177, 177); */
+}
+.eu {
+    color: rgb(54, 54, 54);
+}
+.btns {
+    width: 100%;
+    /* position: relative; */
+    margin: auto;
+    text-align: center;
+}
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgb(118, 35, 196);
+    padding: 8px 14px;
+    margin: 20px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgb(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(100, 27, 168);
+}
+.foto {
+    text-align: center;
+    width: 350px;
+    border-radius: 50%;
+    padding: 8px;
+    background-size: 250%;
+    /* background-position: 100% 100%; */
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    background: linear-gradient(135deg, red, blue 50%, rgb(76, 6, 94) 50%);
+}
+.imagem {
+    /* margin-left: 12rem; */
+}
+.links a {
+    font-size: 30px;
+    color: rgb(100, 27, 168);
+    margin: 35px 10px;
+}
+.links a:hover {
+    color: rgb(60, 14, 104);
+}
+
+/* SOBRE */
+
+.sobretext {
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    background-color: rgba(199, 199, 199, 0.123);
+    margin-right: 2.5rem;
+    /* padding: 1.5rem; */
+    padding-left: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.103);
+
+}
+
+.sobretext p {
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+.sobretext h2{
+    font-size: 2rem;
+}
+
+.fotosobre {
+    border-radius: 20px;
+}
+
+.quemsou {
+    display: flex;
+}
+
+.quemsou p {
+    margin-left: 8px;
+    width: 600px;
+}
+
+/* PORTFOLIO */
+
+.portfoliotext {
+    /* background-color: rgb(69, 17, 82); */
+    color: #2c2c2c;
+    /* text-align: center; */
+    margin-left: 1.5rem;
+    padding: 1.5rem;
+    margin-top: 2.5rem;
+    border-radius: 15px;
+    /* box-shadow: 0 15px 10px rgba(0, 0, 0, 0.103); */
+
+}
+.portfoliotext h2 {
+    /* color: purple; */
+    /* margin-bottom: 2px; */
+}
+
+.fotohamburgueria {
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.fototwitter {
+    border-radius: 15px;
+}
+
+footer{
+    background-color: rgb(100, 27, 168);
+    height: 35px;
+    width: 100vw;
+    color: rgb(216, 216, 216);
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    font-weight: 200;
+}
+footer h4 {
+    margin-top: 5px;
+}
+
+/* NOVIDADES */
+
+.novidadestext {
+    /* background-color: rgb(69, 17, 82); */
+    color: #fff;
+    text-align: center;
+    /* width: 70rem; */
+    /* max-width: 60rem; */
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.novidadestext img {
+    border-radius: 12px;
+}
+
+.novidadestext p {
+    margin-bottom: 15px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(31, 31, 31);
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+
+}
+
+.ia {
+    margin-bottom: 20px;
+    /* background-color: rgb(248, 248, 248); */
+    color: rgb(31, 31, 31);
+    border-radius: 9px;
+}
+
+.crypto {
+    margin-bottom: 20px;
+    /* background-color: rgb(248, 248, 248); */
+    color: rgb(31, 31, 31);
+    border-radius: 9px;}
+
+.quantico {
+    margin-bottom: 20px;
+    /* background-color: rgb(248, 248, 248); */
+    color: rgb(31, 31, 31);
+    border-radius: 9px;}
+
+/* CONTATO */
+
+.contatotext {
+    /* background-color: red; */
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contatotext h1 {
+    font-size: 3rem;
+}
+
+.form {
+    display: flex;
+}
+
+form {
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin: 6px 0px;
+    box-shadow: 0 15px 10px rgb(0, 0, 0, 0.4);
+}
+
+.btn {
+    width: 150px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: #440f52;
+    background-color: rgb(224, 224, 224);
+    padding: 8px 14px;
+    margin: 20px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgb(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(156, 156, 156);
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        /* background-color: green; */
+    }
+    nav {
+        /* display: block; */
+    }
+    .wrapper {
+        /* display: block; */
+    }
+}
